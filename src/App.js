@@ -9,18 +9,18 @@ import Layout from './Layout/Layout';
 // import RestaurantUpdate from './components/RestaurantUpdate/RestaurantUpdate'
 // import MainNavigation from './Layout/MainNavigation';
 import NavigationRoutes from './routes/IndexRoutes';
-import {BrowserRouter} from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 
 function App() {
   return (
-    <div >
-              <BrowserRouter>
-<Layout>
-              <NavigationRoutes/>
-</Layout>
-</BrowserRouter>
-      
-    </div>
+
+    <BrowserRouter>
+      <Layout>
+        <NavigationRoutes />
+      </Layout>
+    </BrowserRouter>
+
+
   );
 }
 
